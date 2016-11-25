@@ -1,0 +1,32 @@
+{
+  "name": "map",
+  "version": "1.0.0",
+  "description": "map",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dsky",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.18.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-changed": "^1.3.2",
+    "gulp-eslint": "^3.0.1",
+    "gulp-replace": "^0.5.4",
+    "gulp-strip-debug": "^1.1.0",
+    "gulp-uglify": "^2.0.0",
+    "pump": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "eslint": "^3.10.2",
+    "eslint-config-airbnb-base": "^10.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "mocha": "^3.1.2"
+  }
+}
